@@ -13,4 +13,10 @@ public class Restcontroller {
 public String getHome() {
 	return "This is homepage";
 }
+
+@GetMapping("/getProject")
+public String getProject() {
+	return "This is project";
+}
+
 }
