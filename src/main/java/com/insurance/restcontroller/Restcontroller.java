@@ -9,7 +9,6 @@ public class Restcontroller {
 	public String getMessage() {
 		return "welcome to My Project";
 	}
-//this method is created by aakanksha
 @GetMapping("/getHome")
 public String getHome() {
 	return "This is homepage";
