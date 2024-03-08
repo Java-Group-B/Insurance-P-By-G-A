@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class Restcontroller {
 @GetMapping("/getMessage")
 	public String getMessage() {
-		return "welcome to Insurance Project-1";
+		return "welcome to My Project";
 	}
 }
